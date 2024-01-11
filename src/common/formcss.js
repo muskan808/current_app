@@ -43,7 +43,7 @@ module.exports = {
         borderRadius: 10,
         paddingHorizontal: 10,
         paddingVertical: 10,
-        height: 60,
+        height: 40,
         textAlignVertical: 'top',
 
     },

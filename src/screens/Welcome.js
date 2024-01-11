@@ -1,7 +1,6 @@
 import { StyleSheet, Text, View, Image } from 'react-native'
 import React from 'react'
 import pattern from '../../assets/v.jpeg'
-import welcomelogo from '../../assets/welcomelogo.png'
 import { button1 } from '../common/button'
 const Welcome = ({ navigation }) => {
     return (

@@ -1,5 +1,5 @@
-import { StyleSheet, Text, View, Image, TextInput, ScrollView, TouchableOpacity, TouchableWithoutFeedback } from 'react-native'
-import React, { useState, useRef } from 'react'
+import { StyleSheet, Text, View, Image, TextInput, ScrollView, TouchableOpacity } from 'react-native'
+import React, { useState } from 'react'
 import pattern from '../../assets/pattern.png'
 import { button1 } from '../common/button'
 import CalendarPicker from 'react-native-calendar-picker'
@@ -236,6 +236,6 @@ const styles = StyleSheet.create({
         backgroundColor: "#FFB0CC",
         borderRadius: 20,
         padding: 0,
-        height: '10%',  // Adjust the height by changing the padding
+        height: '10%', 
     },
 });

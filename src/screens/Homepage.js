@@ -1,15 +1,17 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { StyleSheet, Text, View, Image } from 'react-native'
 import React from 'react'
+import pattern from '../../assets/v.jpeg'
 import { head1 } from '../common/formcss'
 import { button1 } from '../common/button'
 
 const Homepage = ({ navigation }) => {
     return (
         <View style={styles.container}>
+            
             <Text
                 style={head1}
-            >this is Homepage</Text>
-
+    >DashBoard {'\n'}Welcome to Varenyam Yoga</Text>
+<Image style={styles.logo} source={pattern} />
             <Text style={button1}
                 onPress={
                     () => { navigation.navigate('login') }
@@ -26,7 +28,7 @@ const styles = StyleSheet.create({
         width: '100%',
         height: '100%',
         display: 'flex',
-        justifyContent: 'center',
+        justifyContent: '',
         alignItems: 'center',
     }
 })
