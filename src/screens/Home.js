@@ -8,7 +8,7 @@ import {
   TextInput,
   ScrollView,
 } from 'react-native';
-import FontAwesome5Icons from 'react-native-vector-icons';
+import FontAwesome5Icons from 'react-native-vector-icons/FontAwesome5';
 import {MasonryGridView} from 'react-native-masonry-gridview';
 //import {useNavigation} from '@react-navigation/native';
 
