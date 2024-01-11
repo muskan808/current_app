@@ -7,7 +7,7 @@ import {
   TextInput,
   TouchableOpacity,
 } from 'react-native';
-import FontAwesome5Icons from 'react-native-vector-icons';
+import FontAwesome5Icons from 'react-native-vector-icons/FontAwesome5';
 //import {useNavigation, useRoute} from '@react-navigation/native';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
