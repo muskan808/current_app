@@ -6,8 +6,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import Homepage from './src/screens/Homepage';
 import Verification from './src/screens/Verification';
-import Home from './src/screens/Home';
-import Create from './src/screens/Create';
+import Home from './src/components/Home';
 
 const Stack = createStackNavigator();
 
@@ -26,11 +25,6 @@ function App() {
        <Stack.Screen
           name="home"
           component={Home}
-          options={{headerShown: false}}
-        />
-        <Stack.Screen
-          name="create"
-          component={Create}
           options={{headerShown: false}}
         />
       <Stack.Screen name="login" component={Login}
