@@ -3,7 +3,7 @@ import { View, TouchableOpacity, Text } from 'react-native';
 import { WebView } from 'react-native-webview';
 
 const ZoomMeetingPage = () => {
-  const zoomMeetingLink = "YOUR_ZOOM_MEETING_LINK_HERE";
+  const zoomMeetingLink = "https://us06web.zoom.us/j/82471944736?pwd=cVRrTkJiOUlHOSs5a2JuN0EzQ0RiQT09";
 
   const handleJoinMeeting = () => {
     // You can add any custom logic before redirecting to the Zoom meeting link

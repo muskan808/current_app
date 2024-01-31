@@ -16,6 +16,11 @@ function App() {
   return (
     <NavigationContainer>
     <Stack.Navigator>
+    <Stack.Screen
+          name="zoom"
+          component={zoom}
+          options={{headerShown: false}}
+        />
       <Stack.Screen name="welcome" component={Welcome}
         options={
           {
@@ -23,11 +28,7 @@ function App() {
           }
         }
       />
-       <Stack.Screen
-          name="zoom"
-          component={zoom}
-          options={{headerShown: false}}
-        />
+      
        <Stack.Screen
           name="home"
           component={Home}
