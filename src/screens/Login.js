@@ -1,6 +1,6 @@
 import { StyleSheet, Text, View, Image, TextInput } from 'react-native'
 import React, { useState } from 'react'
-import pattern from '../../assets/v.jpeg'
+import pattern from '../../assets/V1.png'
 import logo from '../../assets/v.jpeg'
 import { button1 } from '../common/button'
 import { errormessage, formgroup, head1, head2, input, label, link, link2 } from '../common/formcss'
@@ -107,9 +107,10 @@ const styles = StyleSheet.create({
     },
     patternbg: {
         position: 'absolute',
-        top: 0,
+        top: 10,
         width: '100%',
-        height: '100%',
+        height: '10%', // Adjust height based on your design
+        resizeMode: 'cover', // Or 'contain' depending on your preference
         zIndex: -1,
     },
     container1: {

@@ -8,8 +8,6 @@ const Welcome = ({ navigation }) => {
             <Image style={styles.patternbg} source={pattern} />
 
             <View style={styles.container1}>
-
-                <Image style={styles.logo} source={pattern} />
                 <Text style={button1}
                     onPress={() => navigation.navigate('login')}
                 >Login</Text>

@@ -1,5 +1,6 @@
 import { StyleSheet } from 'react-native';
 import Login from './src/screens/Login';
+import zoom from './src/screens/zoom';
 import Signup from './src/screens/Signup';
 import Welcome from './src/screens/Welcome';
 import { NavigationContainer } from '@react-navigation/native';
@@ -22,6 +23,11 @@ function App() {
           }
         }
       />
+       <Stack.Screen
+          name="zoom"
+          component={zoom}
+          options={{headerShown: false}}
+        />
        <Stack.Screen
           name="home"
           component={Home}
